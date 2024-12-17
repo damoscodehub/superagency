@@ -7,6 +7,8 @@
 
 This is my final project for the CS50’s course **`Introduction to Databases with SQL`**. It's about a SQLite database of a company that manages the hiring of superheroes and supervillains worldwide: _the **`SuperAgency!`**_.
 
+![ER Diagram](diagram.png)
+
 ## ▶️ Video overview:
 <https://youtu.be/1UwL4qk3mec>
 
@@ -27,7 +29,6 @@ This is a list of the files I consider most relevant or think are better to comm
 
 ### ✅ All the requested and submited files
 * [diagram.png](diagram.png): the entity relationship diagram.
-![ER Diagram](diagram.png)
 * [schema.sql](schema.sql): the full schema.
 * [DESIGN.md](DESIGN.md): database’s purpose, scope, entities, relationships, optimizations, and limitations.
 * [queries.sql](queries.sql): an annotated set of SQL statements that users would commonly be expected to run.
@@ -48,9 +49,9 @@ This is a list of the files I consider most relevant or think are better to comm
 As we explain in [log.md](log.md), after we almost finished our first version of the SuperAgency! database, we found in the web a [Superhero Database](https://www.databasestar.com/sample-database-superheroes/) with hundreds of super-entities. It is centered exclusively on super-entities and has nothing related to an agency that hires them, but we adapt some of its tables for our project.
 
 So this special credits and thanks go to:
-* @bbrumm, who appears to be the one who created virtually that entire database.
+* [@bbrumm](https://github.com/bbrumm), who appears to be the one who created virtually that entire database.
     > [Superhero repository](https://github.com/bbrumm/databasestar/tree/main/sample_databases/sample_db_superheroes)
 
     > [Database Star website](https://www.databasestar.com/)
 
-* @miqueldespuig and @KateKatze, who I see had each made [one commit](https://github.com/bbrumm/databasestar/commits/main/sample_databases/sample_db_superheroes) at the time we used that database.
+* [@miqueldespuig](https://github.com/miqueldespuig) and [@KateKatze](https://github.com/KateKatze), who I see had each made [one commit](https://github.com/bbrumm/databasestar/commits/main/sample_databases/sample_db_superheroes) at the time we used that database.
