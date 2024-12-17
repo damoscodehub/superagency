@@ -50,8 +50,6 @@ As we explain in [log.md](log.md), after we almost finished our first version of
 
 So this special credits and thanks go to:
 * [@bbrumm](https://github.com/bbrumm), who appears to be the one who created virtually that entire database.
-    > [Superhero repository](https://github.com/bbrumm/databasestar/tree/main/sample_databases/sample_db_superheroes)
-
-    > [Database Star website](https://www.databasestar.com/)
+    > see [Superhero repository](https://github.com/bbrumm/databasestar/tree/main/sample_databases/sample_db_superheroes) and [Database Star website](https://www.databasestar.com/)
 
 * [@miqueldespuig](https://github.com/miqueldespuig) and [@KateKatze](https://github.com/KateKatze), who I see had each made [one commit](https://github.com/bbrumm/databasestar/commits/main/sample_databases/sample_db_superheroes) at the time we used that database.
