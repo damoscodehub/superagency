@@ -27,7 +27,7 @@ This is my final project for the CS50’s course **`Introduction to Databases wi
 ## 📌Main files
 This is a list of the files I consider most relevant or think are better to comment on.
 
-### ✅ All the requested and submited files
+### ✅ All the requested and submitted files
 * [diagram.png](diagram.png): the entity relationship diagram.
 * [schema.sql](schema.sql): the full schema.
 * [DESIGN.md](DESIGN.md): database’s purpose, scope, entities, relationships, optimizations, and limitations.
