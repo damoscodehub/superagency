@@ -38,11 +38,11 @@ This is a list of the files I consider most relevant or think are better to comm
 * [inserts_only.sql](inserts_only.sql): all the INSERT statements.
 
 ### ❌ Some unrequested and unsubmitted files
-* [log.md](log.md): Unfinished chronological account of the process. I abandoned it when I saw that it was too long and took up too much of my time. There are many things missing there.
+* [log.md](log.md): Unfinished chronological account of the process. We abandoned it when we saw that it was too long and took up too much of my time. There are many things missing there.
 * [missing_superentities.txt](missing_superentities.txt): A disorganized compendium of super-entities that are not yet in the database. 
-* [command_log.sql](command_log.sql): A chaotic log of many of the commands I used in the process.
-* [superagency_before_submit.zip](superagency_before_submit.zip): the files that I submitted as they were just before I submitted them.
-* [superagency_extra_files.zip](superagency_extra_files.zip): the rest of the files (those that I used but I didn't submitted) as they were just before my submission.
+* [command_log.sql](command_log.sql): A chaotic log of many of the commands we used in the process.
+* [superagency_before_submit.zip](superagency_before_submit.zip): the files that we submitted as they were just before we submitted them.
+* [superagency_extra_files.zip](superagency_extra_files.zip): the rest of the files (those that we used but we didn't submitted) as they were just before my submission.
 
 ## Special credits
 As we explain in [log.md](log.md), after we almost finished our first version of the SuperAgency! database, we found in the web a [Superhero Database](https://www.databasestar.com/sample-database-superheroes/) with hundreds of super-entities. It is centered exclusively on super-entities and has nothing related to an agency that hires them, but we adapt some of its tables for our project.
@@ -53,4 +53,4 @@ So this special credits and thanks go to:
 
     > [Database Star website](https://www.databasestar.com/)
 
-* @miqueldespuig and @KateKatze, who I see had each made [one commit](https://github.com/bbrumm/databasestar/commits/main/sample_databases/sample_db_superheroes) at the time I used that database.
+* @miqueldespuig and @KateKatze, who I see had each made [one commit](https://github.com/bbrumm/databasestar/commits/main/sample_databases/sample_db_superheroes) at the time we used that database.
