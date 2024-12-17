@@ -1,0 +1,23 @@
+STATEMENT,real_not_indexed,real_indexed,user_not_indexed,user_indexed,sys_not_indexed,sys_indexed
+"EXPLAIN QUERY PLAN
+SELECT * FROM superentity WHERE known_as LIKE '%man%';",0.000,0.001,0.000037,0.000000,0.000075,0.000141
+"EXPLAIN QUERY PLAN
+SELECT * FROM superentity WHERE known_as = 'Superman';",0.000,0.000,0.000033,0.000000,0.000067,0.000122
+"EXPLAIN QUERY PLAN
+SELECT e.known_as, p.name
+FROM superentity e
+JOIN entity_power ep ON e.id = ep.entity_id
+JOIN superpower p ON ep.power_id = p.id
+WHERE e.publisher_id = 13;",0.000,0.000,0.000047,0.000000,0.000093,0.000174
+"EXPLAIN QUERY PLAN
+SELECT publisher_id, COUNT(*)
+FROM superentity
+GROUP BY publisher_id;",0.002,0.000,0.000000,0.000000,0.001747,0.000113
+BEGIN TRANSACTION;,0.000,0.001,0.000000,0.000069,0.000121,0.000050
+ROLLBACK;,0.000,0.001,0.000155,0.000303,0.000155,0.000218
+"INSERT INTO superentity (known_as, full_name) VALUES ('Test Hero', 'Test Full Name');",0.061,0.003,0.000835,0.000000,0.000691,0.001431
+"INSERT INTO superentity (known_as, full_name)
+SELECT 'Test Hero ' || (rowid + 1000), 'Full Name ' || (rowid + 1000)
+FROM (SELECT rowid FROM superentity LIMIT 1000);",0.007,0.010,0.003185,0.004725,0.002116,0.004143
+UPDATE superentity SET morality_rating = 5 WHERE known_as LIKE 'Test Hero%';,0.002,0.003,0.000000,0.001251,0.002089,0.001147
+DELETE FROM superentity WHERE known_as LIKE 'Test Hero%';,0.060,0.021,0.031808,0.013494,0.000170,0.002910
